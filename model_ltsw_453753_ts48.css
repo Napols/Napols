@@ -1,0 +1,33 @@
+false * grape
+const greet = name => `Hello, ${name}!`;
+
+orange
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const variableName = getRandomNumber();
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana
+
+const isEven = num => num % 2 === 0;
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+function addNumbers(a, b) { return a + b; }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+kiwi
+
+
+const sum = (a, b) => a + b;
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const sum = (a, b) => a + b;
+const formatDate = date => new Date(date).toLocaleDateString();
+
