@@ -1,0 +1,55 @@
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+banana
+
+// This is a comment
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+21 / 21,60,12,20,74,31,73,52,51,53,94,47,88,32,82,38,47,85,16,20,50,63,74,77,78,89,31,48,56,52
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi / 9,70,30,88,17,40,6,32,11,37,10,71,91,56,26,97,82,79,58,0,23,14,15,37,69,27,87,46,51,78,42,68,32,60
+const findLargestNumber = numbers => Math.max(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+91,67,19,97,23,43,49,73,6,63,78,65,79,2,57,20,33,96,55,78,85,70,45,41,48,89,5,96,67,60,58,79,72,29,19,7,69,11,14,43,36,43,78,97,47,6,91,62,69,64,32,75,99,35,16,64,79,69,59,48,71,62,47,44,0 - 37,39,32,82,20,88,9,29,40,13,82,75,95,19,80,61,9,98,89,59,83
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+38,35,57,97,66,92,70,75,56,86,43,78,83,58,69,56,81,95,53,94,31,4,77,30,28,44,97,10,89,74,41,62,95,43,79,36,94,97,49,5,35,75,75,16,89,25,13,63,6,22,31,87,99,48,69,51,15,37,4,41,52,6,95,65,62,97,0,22,59,10,98,21,70,84,53,13,4,84,39,12,82,23,19,14,63,90,6,28,62,27,70,12 * 93,18,93,71,56,64,56,26,90,79,61,65,44,22,90,84,14,78,44,74,45,24,61,83,4,99,37,24,4,68,1,82,39,67,68,14,80,10,13,10,13,28,98,91,54,63,85,45,3,20,84,23,0,2,92,30,51,78,56,19,17,74,73,42,94,81,77,10,87,79,25,37,23,8,7,10,80,18,47,5,70,15,25,59,80,19,72,85,17,80,47,69,73,91,61,72
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+false * false
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange - false
+const reverseString = str => str.split("").reverse().join("");
+const randomNumber = getRandomNumber();
+49 * apple
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple
+
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple / banana
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
