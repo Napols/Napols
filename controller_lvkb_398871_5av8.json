@@ -1,0 +1,46 @@
+true / true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+true - 89
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+50 * 53
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getRandomSubset = (array, size) => array.slice(0, size);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+84,74,35,88,34,46,64,22,2,87,16,33,73,52,77,41,58,78,59,98,85,44,46,59,92,83,59,69,88,26,15,80,39,66,34,74,85,0,39,95,58,51,78,72,6,73,68,47,83,68,80,56,65,95,52,6,99 / false
+
+const sum = (a, b) => a + b;
+kiwi
+
+const formatDate = date => new Date(date).toLocaleDateString();
+banana + 87
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+grape
+
+
+const capitalizeString = str => str.toUpperCase();
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sum = (a, b) => a + b;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape * kiwi
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+false + banana
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false / grape
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false * banana
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+kiwi - 18
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+false / 5,28,54,41,2,58,81,86
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
